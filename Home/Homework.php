@@ -8,24 +8,29 @@
       <big> กรอกประวัติส่วนตัว </big>
     </td>
   </tr>
+
   <tr>
     <td> ชื่อ : </td>
     <td><input type="text" name="name" size="15" value=""/></td>
   </tr>
+
   <tr>
     <td> นามสกุล : </td>
     <td><input type="text" name="surname" size="15" value=""/></td>
   </tr>
+
   <tr>
     <td> ชื่อเล่น : </td>
     <td><input type="text" name="nickname" size="15" value=""/></td>
   </tr>
+
   <tr>
       <td> เพศ : </td>
     <td>
       <input type="radio" name="sex" value="ชาย"> ชาย
       <input type="radio" name="sex" value="หญิง"> หญิง <br>
   </tr>
+
   <tr>
     <td> อายุ : </td>
     <td>
@@ -35,6 +40,7 @@
       <input type="radio" name="age" value="มากกว่า 60">  มากกว่า 60 ปี <br>
     </td>
   </tr>
+
   <tr>
     <td> เบอร์โทร : </td>
     <td><input type="text" name="phone" size="15" value="" maxlength=10 /></td>
@@ -47,7 +53,32 @@
 
   <tr>
     <td> คติประจำใจ : </td>
-    </td><input type="text" name="motto" size="15" value=""/></td>
+    <td><input type="text" name="motto" size="15" value=""/></td>
+  </tr>
+
+  <tr>
+    <td> วัน/เดือน/ปี เกิด : </td>
+    <td><input type="date" name="day1" size="3"></td>
+  </tr>
+
+  <tr>
+    <td> วันเกิด : </td>
+    <td><input type="text" name="day" size="3" ></td>
+  </tr>
+
+  <tr>
+    <td> เดือน : </td>
+    <td><input type="text" name="mon" size="10"></td>
+  <tr>
+
+  <tr>
+    <td> ปี : </td>
+    <td><input type="text" name="year" size="4"></td>
+  </tr>
+
+  <tr>
+    <td> Email : </td>
+    <td><input type="email" name="html5email"></td>
   </tr>
 
   <tr>
