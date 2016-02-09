@@ -57,11 +57,6 @@
   </tr>
 
   <tr>
-    <td> วัน/เดือน/ปี เกิด : </td>
-    <td><input type="date" name="day1" size="3"></td>
-  </tr>
-
-  <tr>
     <td> วันเกิด : </td>
     <td><input type="text" name="day" size="3" ></td>
   </tr>
@@ -72,7 +67,7 @@
   <tr>
 
   <tr>
-    <td> ปี : </td>
+    <td> ปี(พศ.) : </td>
     <td><input type="text" name="year" size="4"></td>
   </tr>
 
